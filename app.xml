@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<email>                      //root element
+    <to>                     //child element
+        <type>Primary</type>
+        <contact>Simran</contact>
+    </to>
+    <sub>
+        <date>
+            <timezone>
+                <value>
+                    1/1/2022
+                </value>
+            </timezone>
+        </date>
+    </sub>
+</email>
+
+
+<!--
+// email/to/contact - xss path (Absolute xpath)
+
+/email/to/type
